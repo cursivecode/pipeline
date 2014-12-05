@@ -62,6 +62,8 @@ gulp.task('watch', function() {
     gulp.watch(javascriptFiles, ['javascript']);
     gulp.watch(sassFiles, ['sass']);
     gulp.watch(scssFiles, ['sass']);
+    gulp.watch('web/**/*.ex').on('change', livereload.changed);
+    gulp.watch('web/**/*.eex').on('change', livereload.changed);
 });
 
 gulp.task('phoenix development', shell.task([
