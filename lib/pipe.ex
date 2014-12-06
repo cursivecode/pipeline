@@ -1,5 +1,10 @@
-defmodule Pipeline.CLI do
-	def main(project_root) do
+defmodule Mix.Tasks.Pipe do
+	@shortdoc "Basic phoenix assets setup"
+
+	@moduledoc """
+	Basic phoenix assets setup	
+	"""
+	def run([project_root]) do
 		if !File.dir? "#{project_root}/priv/assets" do
 			File.mkdir! "#{project_root}/priv/assets"
 			File.mkdir!"#{project_root}/priv/assets/coffeescripts"
