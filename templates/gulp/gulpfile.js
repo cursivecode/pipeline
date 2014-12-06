@@ -75,3 +75,5 @@ gulp.task('phoenix production', shell.task([
 ]));
 
 gulp.task('default', ['coffeescript', 'javascript', 'sass', 'phoenix development', 'watch']);
+
+gulp.task('serve', ['coffeescript', 'javascript', 'sass', 'phoenix development', 'watch']);
