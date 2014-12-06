@@ -5,7 +5,12 @@ defmodule Pipeline.Mixfile do
     [app: :pipeline,
      version: "0.0.1",
      elixir: "~> 1.0",
-     deps: deps]
+     deps: deps,
+     escript: escript]
+  end
+
+  def escript do
+    [main_module: Pipeline.CLI]
   end
 
   # Configuration for the OTP application
