@@ -44,3 +44,11 @@ The main goal of the project is to provide a simple way to add and handle assets
 
         mix do deps.get, compile
         gulp serve
+
+## Pipeline Features
+* *watch* : watch your source files and recompile them automatically
+* *livereload* : reloades webpage when source files change - requires [browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)
+* *sourcemaps* : provides sourcemaps for coffeescript and sass files
+* *sass* : compiles sass files
+* *coffeescript* : compiles coffeescript files
+
