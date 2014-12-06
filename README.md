@@ -52,3 +52,7 @@ The main goal of the project is to provide a simple way to add and handle assets
 * *sass* : compiles sass files
 * *coffeescript* : compiles coffeescript files
 
+
+## TODO
+* Finish design phase
+* Add production gulp tasks
