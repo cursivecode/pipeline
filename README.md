@@ -3,7 +3,7 @@
 
 At this point pipeline is in the design phase.
 
-The main goal of the project is to provide a simple way to add and handle assets within Phoenix.  The tool of choice is Gulp because of its ease of use, number of plugins, and similarities to Elixir in regards to transforming data.
+The main goal of the project is to provide a simple way to add and handle assets within [Phoenix]("https://github.com/phoenixframework/phoenix").  The tool of choice is Gulp because of its ease of use, number of plugins, and similarities to Elixir in regards to transforming data.
 
 ## Getting Started
 
